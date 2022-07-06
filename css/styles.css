@@ -854,11 +854,14 @@ margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.company .link:hover
-.company .link:focus {   
+.customers-item.link:hover
+.customers-item.link:focus {   
     fill: var(--accent-color);
     border-color: var(--accent-color);
 }
 a {
     display: inline-block;
+}
+.company {
+    fill: #AFB1B8;
 }
