@@ -857,9 +857,7 @@ margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.customers-item.link:hover
-.customers-item.link:focus {   
-    color: var(--accent-color);
+.customers-item:hover {
     border-color: var(--accent-color);
 }
 a {
@@ -867,4 +865,7 @@ a {
 }
 .company {
     fill: #AFB1B8;
+}
+li.customers-item  a:hover .company {
+    fill:var(--accent-color);
 }
