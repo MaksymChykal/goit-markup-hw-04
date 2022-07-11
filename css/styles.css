@@ -108,21 +108,11 @@ address {
   .nav-second-list-item:last-child {
     margin-left: 0;
   } 
-  .icon-mail {
-    margin-right: 10px;
-    fill: currentColor;
-  }
+  
   .icon-phone {
     margin-right: 10px;
     fill: #757575;
-  }
-  
-  a.mail-link {
-    display: flex;
-    color: #2196F3;
-  }
-  a.mail-link:hover,:focus {
-    color: blue;
+    margin-left: 30px;
   }
   a.number {
     color: #757575;
@@ -135,12 +125,21 @@ address {
     display: flex;
     align-items: center;
 }
-a.number:hover,:focus{
-   color: var(--title-text-color);
-
+a.number:hover .icon-phone 
+{
+    fill: var(--title-text-color);
 }
-  
-
+.icon-mail {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  a.mail-link {
+    display: flex;
+    color: #2196F3;
+  }
+  a.mail-link:hover,:focus {
+    color: blue;
+  }
   .nav-port {
     display: flex;
     flex-direction: row;
