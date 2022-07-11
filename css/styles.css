@@ -71,12 +71,12 @@ address {
 .menu {
     display: flex;
     flex-direction: row;
-    margin-right: 50px;
+    
     justify-content: space-between;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
-    margin-right: 331px;
+    
 }
  .menu-item {
     display: block;
@@ -97,35 +97,34 @@ address {
     flex-direction: row;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
+    margin-left: auto;
   }
   .nav-second-list-item {
     display: flex;
-    margin-right: 50px;
+    margin-left:0px;
     align-items: center;
     justify-items: center;
   }
   .nav-second-list-item:last-child {
-    margin-right: 0;
-  }
-  .nav-second-list-item:hover,:focus {
-    color: var(--accent-color);
-  }
+    margin-left: 0;
+  } 
   .icon-mail {
     margin-right: 10px;
     fill: currentColor;
   }
   .icon-phone {
     margin-right: 10px;
+    fill: #757575;
   }
-  .mail-link :hover,:focus {
-    color: var(--accent-color);
-  }
+  
   a.mail-link {
     display: flex;
     color: #2196F3;
   }
-  .number {
+  a.mail-link:hover,:focus {
+    color: blue;
+  }
+  a.number {
     color: #757575;
     font-family: 'Roboto';
     font-style: normal;
@@ -136,8 +135,8 @@ address {
     display: flex;
     align-items: center;
 }
-.number.icon-phone:hover,:focus{
-    color: var(--title-text-color);
+a.number:hover,:focus{
+   color: var(--title-text-color);
 
 }
   
