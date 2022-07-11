@@ -127,7 +127,10 @@ address {
 }
 a.number:hover .icon-phone 
 {
-    fill: var(--title-text-color);
+    fill: var(--accent-color);
+}
+a.number:hover {
+    color: var(--accent-color);
 }
 .icon-mail {
     margin-right: 10px;
@@ -566,7 +569,7 @@ color: #212121;
     color: #FFFFFF;
 }
 .address:hover,:focus{
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 .email-footer{
     width: 231px;
@@ -580,7 +583,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);;
 }
 .email-footer:hover,:focus{
-    color: var(--title-text-color);
+    color: var(--primary-bcg-color);
 }
 .number-footer {
     width: 231px;
@@ -593,7 +596,7 @@ line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
 .number-footer:hover,:focus {
-    color: var(--title-text-color);
+    color: var(--primary-bcg-color);
 }
 
 .main-button {
