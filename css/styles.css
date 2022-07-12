@@ -876,13 +876,14 @@ a {
 .company {
     fill: #AFB1B8;
 }                       
-  li.customers-item  a:hover .company {
+  li.customers-item  a:hover.company
+  li.customers-item a:focus.company {
     fill:var(--accent-color); 
 } 
-.li.customers-item a:focus .company {
-    color: var(--accent-color);
+/* .li.customers-item a:focus .company {
+    fill: var(--accent-color);
 }
- /* .customers-list a:focus  {
+ .customers-list a:focus  {
     background-color: var(--accent-color);
    
  } */
